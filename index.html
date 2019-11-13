@@ -9,5 +9,13 @@
 <body>
     <h1>hello world</h1>
     <h3>兽人永不为奴,除非包吃包住</h3>
+    <button id="btn">点我关灯</button>
+
+    <script>
+        var btn = document.getElementById('btn');
+        btn.onclick = function(){
+            document.querySelector('body').style.backgroundColor = 'black';
+        }
+    </script>
 </body>
 </html>
